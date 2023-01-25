@@ -8,6 +8,7 @@ def QuedaLivre():
     Janela1.title('Queda Livre')
     Janela1.geometry('300x210+300+220')
     Janela1.iconbitmap('arrow.ico')
+    Janela1.resizable(False, False)
 
     lb = Label(Janela1, text='Selecione uma opção:', font='Times 14')
     lb.place(x=60, y=10)
@@ -38,6 +39,7 @@ def LancamentoVertical():
     Janela2.title('Lançamento Vertical')
     Janela2.geometry('300x210+1020+220')
     Janela2.iconbitmap('arrow.ico')
+    Janela2.resizable(False, False)
 
     lb = Label(Janela2, text='Selecione uma opção:', font='Times 14')
     lb.place(x=60, y=10)
@@ -66,6 +68,7 @@ Janela = Tk()
 Janela.title('LauFall')
 Janela.geometry('300x320+660+220')
 Janela.iconbitmap('arrow.ico')
+Janela.resizable(False, False)
 
 Botao_QuedaLivre = Button(Janela, width=10, text='1. Queda livre', command=QuedaLivre)
 Botao_QuedaLivre.place(x=108, y=200)
@@ -99,6 +102,7 @@ def QLAlt():
     janela3.title('Altura')
     janela3.geometry('300x210')
     janela3.iconbitmap('arrow.ico')
+    janela3.resizable(False, False)
 
     lb = Label(janela3, text='Altura em m:')
     lb.place(x=95, y=108)
@@ -157,6 +161,7 @@ def QLAltTorricelli():
     janela4.title('Altura (por Torricelli)')
     janela4.geometry('300x245')
     janela4.iconbitmap('arrow.ico')
+    janela4.resizable(False, False)
 
     lb = Label(janela4, text='Altura em m:')
     lb.place(x=95, y=135)
@@ -217,6 +222,7 @@ def QLVel():
     janela5.title('Velocidade')
     janela5.geometry('300x210')
     janela5.iconbitmap('arrow.ico')
+    janela5.resizable(False, False)
 
     lb = Label(janela5, text='Velocidade em m/s:')
     lb.place(x=90, y=108)
@@ -270,6 +276,7 @@ def QLVelTorricelli():
     janela6.title('Velocidade (por Torricelli)')
     janela6.geometry('300x210')
     janela6.iconbitmap('arrow.ico')
+    janela6.resizable(False, False)
 
     lb = Label(janela6, text='Velocidade em m/s:')
     lb.place(x=90, y=108)
@@ -328,6 +335,7 @@ def QLTempQueda():
     janela9.title('Tempo de Queda')
     janela9.geometry('300x245')
     janela9.iconbitmap('arrow.ico')
+    janela9.resizable(False, False)
 
     lb = Label(janela9, text='Tempo de Queda em s:')
     lb.place(x=80, y=135)
@@ -388,6 +396,7 @@ def LVAltMax():
     janela7.title('Altura Máxima')
     janela7.geometry('300x210')
     janela7.iconbitmap('arrow.ico')
+    janela7.resizable(False, False)
 
     lb = Label(janela7, text='Altura Máxima em m:')
     lb.place(x=90, y=108)
@@ -440,6 +449,7 @@ def LVTempSub():
     janela8.title('Tempo de Subida')
     janela8.geometry('300x210')
     janela8.iconbitmap('arrow.ico')
+    janela8.resizable(False, False)
 
     lb = Label(janela8, text='Tempo de subida em s:')
     lb.place(x=90, y=108)
@@ -493,6 +503,7 @@ def LVVelInicial():
     janela10.title('Velocidade Inicial (atingir Alt. Máx.)')
     janela10.geometry('300x210')
     janela10.iconbitmap('arrow.ico')
+    janela10.resizable(False, False)
 
     lb = Label(janela10, text='Velocidade Inicial em m/s:')
     lb.place(x=78, y=108)
@@ -545,6 +556,7 @@ def LVTempPerm():
     janela11.title('Tempo de perm. no ar')
     janela11.geometry('300x210')
     janela11.iconbitmap('arrow.ico')
+    janela11.resizable(False, False)
 
     lb = Label(janela11, text='Tempo de perm. no ar em s:')
     lb.place(x=70, y=108)
